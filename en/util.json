@@ -1,0 +1,9 @@
+{
+    "ping": {
+        "pong": "Pong! 🏓",
+        "time": "Pong! {{ping}}ms"
+    },
+    "devmail": {
+        "sent": "Your message has been sent!"
+    }
+}
