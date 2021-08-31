@@ -1,9 +1,29 @@
 {
     "ping": {
-        "pong": "Pong! 🏓",
-        "time": "Pong! {{ping}}ms"
+        "name": "ping",
+        "desc": "Pong!",
+        "subcommands": {
+            "pong": {
+                "name": "pong",
+                "desc": "Plays ping pong",
+                "response": "Pong! 🏓"
+            },
+            "time": {
+                "name": "time",
+                "desc": "Tells you the bot's latency",
+                "response": "Pong! {{ping}}ms"
+            }
+        }
     },
     "devmail": {
+        "name": "devmail",
+        "desc": "Send a message to Spyke's developers. This could be feedback or suggestions.",
+        "params": {
+            "message": {
+                "name": "message",
+                "desc": "The message to send"
+            }
+        },
         "sent": "Your message has been sent!"
     }
 }
