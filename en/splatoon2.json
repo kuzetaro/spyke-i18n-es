@@ -1,1 +1,62 @@
-{"meta":{"pb":{"name":"pb2","desc":"Organise a Private Battle for Splatoon 2 with random weapons and maps","embed":{"main":{"title":"Private Battle Settings","desc":"Here are your generated room settings"},"alpha":{"title":"Alpha Team"},"team":{"alpha":"Alpha Team","bravo":"Bravo Team","player":"Player {{position}}"}}},"brands":{"name":"brands2","desc":"See the Splatoon 2 brands and which abilities are common/uncommon"},"hs":{"name":"hideandseek","desc":"View the rules of the minigame Hide and Seek","hs_rules":"**RULES:**\nAlpha or smaller team = hiders\nBeta or larger team = seekers\n\n<:hs1:373194237837312000> 1min for uneven teams (or 45sec for large stages like Moray Towers)\n<:hs1:373194237837312000> 45sec for even teams (or 30sec for large stages like Moray Towers)\n<:hs1:373194237837312000> No subs/specials\n<:hs1:373194237837312000> No map (by extension no super jump)\n<:hs1:373194237837312000> Hiders win if time is up without all of them having died\n<:hs1:373194237837312000> Seekers win if all hiders die\n<:hs1:373194237837312000> Hiding time deaths are excluded\n<:hs1:373194237837312000> Any seeker that dies may continue\n<:hs1:373194237837312000> Any hider that dies is out and may only return as a spectator"},"rw":{"name":"rw2","desc":"Pick a random weapon from Splatoon 2!","params":{"public":{"name":"show-everyone","desc":"Show everyone the weapon?"}},"embed":{"title":"Random Weapon"}}},"salmon":{"name":"salmon2","desc":"Get the schedule for Salmon Run in Splatoon 2","salmon":{"desc":"Get the schedule for Salmon Run in Splatoon 2","name":"salmon2"},"rewards":{"name":"rewardgear2","desc":"View the current reward gear in Salmon Run for Splatoon 2"},"on":{"name":"issalmonon2","desc":"Check if Salmon Run is currently running in Splatoon 2","yes":"Salmon Run is currently running.","no":"Salmon Run is **not** currently running."}}}
+{
+    "meta": {
+        "pb": {
+            "name": "pb2",
+            "desc": "Organise a Private Battle for Splatoon 2 with random weapons and maps",
+            "embed": {
+                "main": {
+                    "title": "Private Battle Settings",
+                    "desc": "Here are your generated room settings"
+                },
+                "alpha": {
+                    "title": "Alpha Team"
+                },
+                "team": {
+                    "alpha": "Alpha Team",
+                    "bravo": "Bravo Team",
+                    "player": "Player {{position}}"
+                }
+            }
+        },
+        "brands": {
+            "name": "brands2",
+            "desc": "See the Splatoon 2 brands and which abilities are common/uncommon"
+        },
+        "hs": {
+            "name": "hideandseek",
+            "desc": "View the rules of the minigame Hide and Seek",
+            "hs_rules": "**RULES:**\nAlpha or smaller team = hiders\nBeta or larger team = seekers\n\n<:hs1:373194237837312000> 1min for uneven teams (or 45sec for large stages like Moray Towers)\n<:hs1:373194237837312000> 45sec for even teams (or 30sec for large stages like Moray Towers)\n<:hs1:373194237837312000> No subs/specials\n<:hs1:373194237837312000> No map (by extension no super jump)\n<:hs1:373194237837312000> Hiders win if time is up without all of them having died\n<:hs1:373194237837312000> Seekers win if all hiders die\n<:hs1:373194237837312000> Hiding time deaths are excluded\n<:hs1:373194237837312000> Any seeker that dies may continue\n<:hs1:373194237837312000> Any hider that dies is out and may only return as a spectator"
+        },
+        "rw": {
+            "name": "rw2",
+            "desc": "Pick a random weapon from Splatoon 2!",
+            "params": {
+                "public": {
+                    "name": "show-everyone",
+                    "desc": "Show everyone the weapon?"
+                }
+            },
+            "embed": {
+                "title": "Random Weapon"
+            }
+        }
+    },
+    "salmon": {
+        "name": "salmon2",
+        "desc": "Get the schedule for Salmon Run in Splatoon 2",
+        "salmon": {
+            "desc": "Get the schedule for Salmon Run in Splatoon 2",
+            "name": "salmon2"
+        },
+        "rewards": {
+            "name": "rewardgear2",
+            "desc": "View the current reward gear in Salmon Run for Splatoon 2"
+        },
+        "on": {
+            "name": "issalmonon2",
+            "desc": "Check if Salmon Run is currently running in Splatoon 2",
+            "yes": "Salmon Run is currently running.",
+            "no": "Salmon Run is **not** currently running."
+        }
+    }
+}

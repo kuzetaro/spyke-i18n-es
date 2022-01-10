@@ -1,1 +1,21 @@
-{"mode":{"clam_blitz":"Clam Blitz","rainmaker":"Rainmaker","splat_zones":"Splat Zones","tower_control":"Tower Control","turf_war":"Turf War"},"keyword":{"map":"Stage","mode":"Game Mode","gear_type":"Gear Type","rarity":"Rarity","brand":{"title":"Brand","grizzco":"Grizzco"},"main_skill":"Primary Ability","random":"Random"}}
+{
+    "mode": {
+        "clam_blitz": "Clam Blitz",
+        "rainmaker": "Rainmaker",
+        "splat_zones": "Splat Zones",
+        "tower_control": "Tower Control",
+        "turf_war": "Turf War"
+    },
+    "keyword": {
+        "map": "Stage",
+        "mode": "Game Mode",
+        "gear_type": "Gear Type",
+        "rarity": "Rarity",
+        "brand": {
+            "title": "Brand",
+            "grizzco": "Grizzco"
+        },
+        "main_skill": "Primary Ability",
+        "random": "Random"
+    }
+}
