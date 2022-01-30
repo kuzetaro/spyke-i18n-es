@@ -1,1 +1,6 @@
-{"mode":{},"keyword":{"brand":{},"gear_type":{}}}
+{
+    "keyword": {
+        "brand": {},
+        "gear_type": {}
+    }
+}
