@@ -8,6 +8,15 @@
             "title": "Brand"
         },
         "main_skill": "Primary Ability",
-        "random": "Random"
+        "random": "Random",
+        "class": {
+            "shooter": "Shooter",
+            "blaster": "Blaster",
+            "roller": "Roller",
+            "charger": "Charger",
+            "slosher": "Slosher",
+            "dualies": "Dualies",
+            "brella": "Brella"
+        }
     }
 }

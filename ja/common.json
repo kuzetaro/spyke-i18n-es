@@ -1,6 +1,7 @@
 {
     "keyword": {
         "brand": {},
-        "gear_type": {}
+        "gear_type": {},
+        "class": {}
     }
 }

@@ -995,5 +995,17 @@
             "cVgl": "ガチホコバトル",
             "cVlf": "ガチヤグラ"
         }
+    },
+    "winfo": {
+        "winfo": {
+            "main": {
+                "params": {
+                    "weapon": {}
+                },
+                "embed": {
+                    "class": ""
+                }
+            }
+        }
     }
 }
