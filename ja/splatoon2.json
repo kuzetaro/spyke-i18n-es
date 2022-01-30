@@ -976,16 +976,16 @@
             "Fld_Wave00_Vss": "コンブトラック"
         },
         "main_power_explain": {
-            "MPU_BrushSpeedUp": "塗りながら進む速度が\nわずかにアップします。",
+            "MPU_BrushSpeedUp": "塗りながら進む速度がわずかにアップします。",
             "MPU_CanopyHPUp": "カサの耐久力がアップします。",
-            "MPU_CanopyRecoveryUp": "カサが復活するまでの時間が\n短くなります。",
-            "MPU_DamageAreaUp": "爆風で大ダメージをあたえる\n範囲が広がります。",
-            "MPU_DamageReductionDown": "最大ダメージをあたえられる\n距離が長くなります。",
+            "MPU_CanopyRecoveryUp": "カサが復活するまでの時間が短くなります。",
+            "MPU_DamageAreaUp": "爆風で大ダメージをあたえる範囲が広がります。",
+            "MPU_DamageReductionDown": "最大ダメージをあたえられる距離が長くなります。",
             "MPU_DamageUp": "あたえるダメージが大きくなります。",
             "MPU_PaintUp": "塗り性能がアップします。",
-            "MPU_RangeUp": "弾がわずかに遠くまで\n飛ぶようになります。",
-            "MPU_ReduceDegJump": "ジャンプして射撃したときの弾が\nブレにくくなります。",
-            "MPU_ShootingFrameUp": "射撃継続時間が\n長くなります。"
+            "MPU_RangeUp": "弾がわずかに遠くまで飛ぶようになります。",
+            "MPU_ReduceDegJump": "ジャンプして射撃したときの弾がブレにくくなります。",
+            "MPU_ShootingFrameUp": "射撃継続時間が長くなります。"
         },
         "mode": {
             "cFes": "ナワバリバトル（フェス）",

@@ -1018,16 +1018,16 @@
             "Fld_Wave00_Vss": "Humpback Pump Track"
         },
         "main_power_explain": {
-            "MPU_BrushSpeedUp": "Slightly increases\nmovement speed\nwhile inking.",
-            "MPU_CanopyHPUp": "Increases Brella\ncanopy durability.",
-            "MPU_CanopyRecoveryUp": "Speeds up Brella\ncanopy regeneration.",
-            "MPU_DamageAreaUp": "Increases high-damage\nradius of explosions.",
-            "MPU_DamageReductionDown": "Increases maximum\ndamage range.",
+            "MPU_BrushSpeedUp": "Slightly increases movement speed while inking.",
+            "MPU_CanopyHPUp": "Increases Brella canopy durability.",
+            "MPU_CanopyRecoveryUp": "Speeds up Brella canopy regeneration.",
+            "MPU_DamageAreaUp": "Increases high-damage radius of explosions.",
+            "MPU_DamageReductionDown": "Increases maximum damage range.",
             "MPU_DamageUp": "Increases damage.",
             "MPU_PaintUp": "Increases ink coverage.",
             "MPU_RangeUp": "Slightly increases range.",
-            "MPU_ReduceDegJump": "Increases shot accuracy\nwhen firing while jumping.",
-            "MPU_ShootingFrameUp": "Increases duration of\nfiring in a burst."
+            "MPU_ReduceDegJump": "Increases shot accuracy when firing while jumping.",
+            "MPU_ShootingFrameUp": "Increases duration of firing in a burst."
         },
         "mode": {
             "cFes": "Turf War (Splatfest)",
