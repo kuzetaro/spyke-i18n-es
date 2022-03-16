@@ -2,7 +2,7 @@
     "ping": {
         "name": "ping",
         "desc": "Pong!",
-        "subcommands": {
+        "subs": {
             "pong": {
                 "name": "pong",
                 "desc": "Plays ping pong",

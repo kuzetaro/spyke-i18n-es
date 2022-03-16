@@ -147,7 +147,7 @@
             "SE_ThermalInk": "メインウェポンの弾を直接\n当てた相手が、しばらくの間、\n遠くから見えるようになります。",
             "SE_Unknown": "ギアをバトルで使用して\nケイケン値をためると\nギアパワーが解放されます。"
         },
-        "weapon_main": {
+        "main": {
             "Charger_CoopSpark": "クマサン印のチャージャー",
             "Charger_Keeper_00": "ソイチューバー",
             "Charger_Keeper_01": "ソイチューバーカスタム",
@@ -292,7 +292,7 @@
             "Umbrella_Wide_01": "キャンピングシェルターソレーラ",
             "Umbrella_Wide_02": "キャンピングシェルターカーモ"
         },
-        "weapon_sub": {
+        "sub": {
             "Bomb_Curling": "<:curling:451732483688497152>カーリングボム",
             "Bomb_Piyo": "<:fizzy:497394302595497984>タンサンボム",
             "Bomb_Quick": "<:burst:451732329153691648>クイックボム",
@@ -307,7 +307,7 @@
             "Sprinkler": "<:sprinkler:451733051030896661>スプリンクラー",
             "TimerTrap": "<:mine:451732593054973952>トラップ"
         },
-        "weapon_special": {
+        "special": {
             "AquaBall": "<:baller:451733454154104842>イカスフィア",
             "Jetpack": "<:inkjet:451733714712657921>ジェットパック",
             "LauncherCurling": "<:curlinglauncher:451734750307287041>カーリングボムピッチャー",
@@ -324,7 +324,7 @@
             "SuperStamp": "<:stamp:509782668016091189>ウルトラハンコ",
             "WaterCutter": "<:stingray:451734582258171904>ハイパープレッサー"
         },
-        "clothes_head": {
+        "hat": {
             "Hed_ACC001": "カイザーカフ",
             "Hed_AMB000": "イカパッチン",
             "Hed_AMB001": "サムライヘルメット",
@@ -490,7 +490,7 @@
             "Hed_VIS003": "ヤコバイザー",
             "Hed_VIS004": "フェイスバイザー"
         },
-        "clothes_body": {
+        "shirt": {
             "Clt_AMB000": "スクールブレザー",
             "Clt_AMB001": "サムライジャケット",
             "Clt_AMB002": "パワードスーツ",
@@ -749,7 +749,7 @@
             "Clt_VST008": "フロントジップベスト",
             "Clt_VST009": "アロメランベスト シルバー"
         },
-        "clothes_shoes": {
+        "shoes": {
             "Shs_AMB000": "スクールローファー",
             "Shs_AMB001": "サムライシューズ",
             "Shs_AMB002": "パワードレッグス",
@@ -975,7 +975,7 @@
             "Fld_Warehouse01_Vss": "ハコフグ倉庫",
             "Fld_Wave00_Vss": "コンブトラック"
         },
-        "main_power_explain": {
+        "mpu": {
             "MPU_BrushSpeedUp": "塗りながら進む速度がわずかにアップします。",
             "MPU_CanopyHPUp": "カサの耐久力がアップします。",
             "MPU_CanopyRecoveryUp": "カサが復活するまでの時間が短くなります。",

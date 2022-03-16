@@ -189,7 +189,7 @@
             "SE_ThermalInk": "Allows you to track\ndistant players hit with\nshots from your main\nweapon.",
             "SE_Unknown": "Unlock this ability by\nbattling while wearing\nthis gear."
         },
-        "weapon_main": {
+        "main": {
             "Charger_CoopSpark": "Grizzco Charger",
             "Charger_Keeper_00": "Goo Tuber",
             "Charger_Keeper_01": "Custom Goo Tuber",
@@ -334,7 +334,7 @@
             "Umbrella_Wide_01": "Tenta Sorella Brella",
             "Umbrella_Wide_02": "Tenta Camo Brella"
         },
-        "weapon_sub": {
+        "sub": {
             "Bomb_Curling": "<:curling:451732483688497152> Curling Bomb",
             "Bomb_Piyo": "<:fizzy:497394302595497984> Fizzy Bomb",
             "Bomb_Quick": "<:burst:451732329153691648> Burst Bomb",
@@ -349,7 +349,7 @@
             "Sprinkler": "<:sprinkler:451733051030896661> Sprinkler",
             "TimerTrap": "<:mine:451732593054973952> Ink Mine"
         },
-        "weapon_special": {
+        "special": {
             "AquaBall": "<:baller:451733454154104842> Baller",
             "Jetpack": "<:inkjet:451733714712657921> Inkjet",
             "LauncherCurling": "<:curlinglauncher:451734750307287041> Curling-Bomb Launcher",
@@ -366,7 +366,7 @@
             "SuperStamp": "<:stamp:509782668016091189> Ultra Stamp",
             "WaterCutter": "<:stingray:451734582258171904> Sting Ray"
         },
-        "clothes_head": {
+        "hat": {
             "Hed_ACC001": "Eminence Cuff",
             "Hed_AMB000": "Squid Hairclip",
             "Hed_AMB001": "Samurai Helmet",
@@ -532,7 +532,7 @@
             "Hed_VIS003": "Takoroka Visor",
             "Hed_VIS004": "Face Visor"
         },
-        "clothes_body": {
+        "shirt": {
             "Clt_AMB000": "School Uniform",
             "Clt_AMB001": "Samurai Jacket",
             "Clt_AMB002": "Power Armour",
@@ -791,7 +791,7 @@
             "Clt_VST008": "Front Zip Vest",
             "Clt_VST009": "Silver Tentatek Vest"
         },
-        "clothes_shoes": {
+        "shoes": {
             "Shs_AMB000": "School Shoes",
             "Shs_AMB001": "Samurai Shoes",
             "Shs_AMB002": "Power Boots",
@@ -1017,7 +1017,7 @@
             "Fld_Warehouse01_Vss": "Walleye Warehouse",
             "Fld_Wave00_Vss": "Humpback Pump Track"
         },
-        "main_power_explain": {
+        "mpu": {
             "MPU_BrushSpeedUp": "Slightly increases movement speed while inking.",
             "MPU_CanopyHPUp": "Increases Brella canopy durability.",
             "MPU_CanopyRecoveryUp": "Speeds up Brella canopy regeneration.",
