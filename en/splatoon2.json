@@ -39,6 +39,16 @@
             "embed": {
                 "title": "Random Weapon"
             }
+        },
+        "callout": {
+            "name": "callout2",
+            "desc": "Get the callout for a map",
+            "params": {
+                "map": {
+                    "name": "map",
+                    "desc": "The map to get the callout for"
+                }
+            },
         }
     },
     "salmon": {
