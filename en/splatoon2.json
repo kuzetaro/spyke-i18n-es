@@ -23,7 +23,7 @@
             "desc": "See the Splatoon 2 brands and which abilities are common/uncommon"
         },
         "hs": {
-            "name": "hideandseek",
+            "name": "hideandseek2",
             "desc": "View the rules of the minigame Hide and Seek",
             "hs_rules": "**RULES:**\nAlpha or smaller team = hiders\nBeta or larger team = seekers\n\n<:hs1:373194237837312000> 1min for uneven teams (or 45sec for large stages like Moray Towers)\n<:hs1:373194237837312000> 45sec for even teams (or 30sec for large stages like Moray Towers)\n<:hs1:373194237837312000> No subs/specials\n<:hs1:373194237837312000> No map (by extension no super jump)\n<:hs1:373194237837312000> Hiders win if time is up without all of them having died\n<:hs1:373194237837312000> Seekers win if all hiders die\n<:hs1:373194237837312000> Hiding time deaths are excluded\n<:hs1:373194237837312000> Any seeker that dies may continue\n<:hs1:373194237837312000> Any hider that dies is out and may only return as a spectator"
         },
@@ -1077,5 +1077,15 @@
             "desc": "Get information about a weapon in Splatoon 2"
         },
         "footer": "Requested by {{user}} | Data (and great amounts of help) provided by Lean (https://leanny.github.io/)"
+    },
+    "maps": {
+        "maps": {
+            "name": "maps2",
+            "desc": "Get the current maps for Splatoon 2"
+        },
+        "ttn": {
+            "name": "ttn2",
+            "desc": "Get the time until the next rotation for Splatoon 2"
+        }
     }
 }

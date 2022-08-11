@@ -14,7 +14,8 @@
                 "public": {}
             },
             "embed": {}
-        }
+        },
+        "callout": {}
     },
     "salmon": {
         "salmon": {},
@@ -1007,5 +1008,9 @@
                 }
             }
         }
+    },
+    "maps": {
+        "maps": {},
+        "ttn": {}
     }
 }
