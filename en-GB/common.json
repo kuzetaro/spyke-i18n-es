@@ -4,9 +4,7 @@
         "mode": "Game Mode",
         "gear_type": "Gear Type",
         "rarity": "Rarity",
-        "brand": {
-            "title": "Brand"
-        },
+        "brand": "Brand",
         "main_skill": "Primary Ability",
         "random": "Random",
         "class": {
@@ -18,5 +16,9 @@
             "dualies": "Dualies",
             "brella": "Brella"
         }
+    },
+    "bool": {
+        "yes": "Yes",
+        "no": "No"
     }
 }
