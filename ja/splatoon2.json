@@ -1,30 +1,80 @@
 {
     "meta": {
         "pb": {
+            "name": "プライベートバトル２",
+            "desc": "ランダム武器とマップでプライベートバトルを作る",
             "embed": {
-                "main": {},
-                "alpha": {},
-                "team": {}
+                "main": {
+                    "title": "プライベートバトル設定",
+                    "desc": "作成した部屋の設定です"
+                },
+                "alpha": {
+                    "title": "アルファチーム"
+                },
+                "team": {
+                    "alpha": "アルファチーム",
+                    "bravo": "ブラボーチーム",
+                    "player": "プレイヤー {{position}}"
+                }
             }
         },
-        "brands": {},
-        "hs": {},
-        "rw": {
-            "params": {
-                "public": {}
-            },
-            "embed": {}
+        "brands": {
+            "name": "ブランド２",
+            "desc": "スプラトゥーン２のブランドのギアの能力の付きやすさを見る"
         },
-        "callout": {}
+        "hs": {
+            "name": "隠れん坊２",
+            "desc": "ミニゲーム隠れん坊のルールを読む",
+            "hs_rules": "**ルール:**\nアルファチーム（小チーム) = 隠れる側\nブラボーチーム(大チーム) = 探す側\n\n<:hs1:373194237837312000>  人数が均等ではないチームは一分 (タチウオパーキングなどのでかいステージでは45秒)\n<:hs1:373194237837312000> 人数が均等なチームでは45秒 (タチウオパーキングなどのでかいステージでは30秒)\n<:hs1:373194237837312000> サブ、スペシャルは使用不可能\n<:hs1:373194237837312000> マップの使用禁止 (スーパージャンプも禁止)\n<:hs1:373194237837312000> 時間終了時に隠れる側のプレイヤーが一人でも生きてた場合隠れる側の勝ち\n<:hs1:373194237837312000> 隠れる側が全てやられた場合探す側の勝ち\n<:hs1:373194237837312000> 隠れる時に死ぬのはカウントしません\n<:hs1:373194237837312000> 探す側で死んだプレイヤーは続けていいです\n<:hs1:373194237837312000> 隠れる側でやられた場合そのプレイヤーは観客になります。"
+        },
+        "rw": {
+            "name": "ランダム武器２",
+            "desc": "スプラトゥーン２のランダム武器を選択する",
+            "params": {
+                "public": {
+                    "name": "みんなに見せる",
+                    "desc": "みんなに武器を見せますか?"
+                }
+            },
+            "embed": {
+                "title": "ランダム武器"
+            }
+        },
+        "callout": {
+            "name": "地図表示２",
+            "desc": "スプラトゥーン２のマップの地図を表示する",
+            "params": {
+                "map": {
+                    "name": "地図",
+                    "desc": "地図を表示するステージ"
+                }
+            }
+        }
     },
     "salmon": {
-        "salmon": {},
-        "rewards": {},
-        "on": {}
+        "salmon": {
+            "desc": "スプラトゥーン２のサーモンランのスケジュールを取得する",
+            "name": "サーモン２"
+        },
+        "rewards": {
+            "name": "報酬ギア２",
+            "desc": "今のサーモンランの報酬ギアを表示する"
+        },
+        "on": {
+            "name": "サーモンラン２",
+            "desc": "スプラトゥーン２で今サーモンランが開いてるか表示する",
+            "yes": "サーモンランは今開いてます",
+            "no": "サーモンランは今開いてません"
+        }
     },
     "game_lang": {
-        "__COMMENT": {},
-        "__unused": {
+        "__COMMENT": {
+            "1": "Locale data taken from the datamine",
+            "2": "https://leanny.github.io/data/Languages/lang_dict_EUen.json",
+            "3": "The keys below, in 'unused' are not currently used in Spyke",
+            "4": "Also note that, for some reason, some stage names are duplicated"
+        },
+	"__unused": {
             "BigLaser": "センパイキャノン",
             "Bomb_MissionCurling": "カーリングボム",
             "Bomb_MissionRobo": "ロボットボム",
@@ -89,33 +139,33 @@
         },
         "skill": {
             "Blank": "",
-            "BombDamage_Reduction": "<:bddx:937213107250536489>爆風ダメージ軽減・改",
-            "BombDistance_Up": "<:sbup:480391907952820224>サブ性能アップ",
-            "ComeBack": "<:back:480361106418958336>カムバック",
-            "DeathMarking": "<:haunt:480362082408071168>リベンジ",
-            "EndAllUp": "<:last:480369613272776724>ラストスパート",
-            "ExSkillDouble": "<:skdbl:937214085030895627>追加ギアパワー倍化",
-            "Exorcist": "<:rpun:480374828747194369>復活ペナルティアップ",
-            "HumanMove_Up": "<:runs:480375886575828992>ヒト移動速度アップ",
-            "InkRecovery_Up": "<:irec:480362575238791170>インク回復力アップ",
-            "JumpTime_Save": "<:qjmp:480374008504647703>スーパージャンプ時間短縮",
-            "MainInk_Save": "<:msav:480364189995761664>インク効率アップ(メイン)",
-            "MarkingTime_Reduction": "<:main:937213337366847508>メイン性能アップ",
-            "MinorityUp": "<:tena:480394473264644115>逆境強化",
-            "ObjectEffect_Up": "<:shred:480372472819089430>対物攻撃力アップ",
-            "OpInkEffect_Reduction": "<:ires:480363715691020288>相手インク影響軽減",
-            "RespawnSpecialGauge_Save": "<:spsv:480382942296932372>スペシャル減少量ダウン",
-            "RespawnTime_Save": "<:qres:480373724479094804>復活時間短縮",
-            "SomersaultLanding": "<:drop:480361804808192010>受け身術",
-            "SpecialIncrease_Up": "<:scup:480376199453999104>スペシャル増加量アップ",
-            "SpecialTime_Up": "<:spup:480381557618769931>スペシャル性能アップ",
-            "SquidMoveSpatter_Reduction": "<:hide:480371545626378264>イカニンジャ",
-            "SquidMove_Up": "<:swim:480393311413338122>イカダッシュ速度アップ",
-            "StartAllUp": "<:open:480373410048770078>スタートダッシュ",
-            "SubInk_Save": "<:sbsv:480365468423684106>インク効率アップ(サブ)",
-            "SuperJumpSign_Hide": "<:jump:480383328214843393>ステルスジャンプ",
-            "ThermalInk": "<:therm:480394726562988042>サーマルインク",
-            "Unknown": "<:mystery:457050117694816257>"
+            "BombDamage_Reduction": "<:bddx:937213107250536489> 爆風ダメージ軽減・改",
+            "BombDistance_Up": "<:sbup:480391907952820224> サブ性能アップ",
+            "ComeBack": "<:back:480361106418958336> カムバック",
+            "DeathMarking": "<:haunt:480362082408071168> リベンジ",
+            "EndAllUp": "<:last:480369613272776724> ラストスパート",
+            "ExSkillDouble": "<:skdbl:937214085030895627> 追加ギアパワー倍化",
+            "Exorcist": "<:rpun:480374828747194369> 復活ペナルティアップ",
+            "HumanMove_Up": "<:runs:480375886575828992> ヒト移動速度アップ",
+            "InkRecovery_Up": "<:irec:480362575238791170> インク回復力アップ",
+            "JumpTime_Save": "<:qjmp:480374008504647703> スーパージャンプ時間短縮",
+            "MainInk_Save": "<:msav:480364189995761664> インク効率アップ(メイン)",
+            "MarkingTime_Reduction": "<:main:937213337366847508> メイン性能アップ",
+            "MinorityUp": "<:tena:480394473264644115> 逆境強化",
+            "ObjectEffect_Up": "<:shred:480372472819089430> 対物攻撃力アップ",
+            "OpInkEffect_Reduction": "<:ires:480363715691020288> 相手インク影響軽減",
+            "RespawnSpecialGauge_Save": "<:spsv:480382942296932372> スペシャル減少量ダウン",
+            "RespawnTime_Save": "<:qres:480373724479094804> 復活時間短縮",
+            "SomersaultLanding": "<:drop:480361804808192010> 受け身術",
+            "SpecialIncrease_Up": "<:scup:480376199453999104> スペシャル増加量アップ",
+            "SpecialTime_Up": "<:spup:480381557618769931> スペシャル性能アップ",
+            "SquidMoveSpatter_Reduction": "<:hide:480371545626378264> イカニンジャ",
+            "SquidMove_Up": "<:swim:480393311413338122> イカダッシュ速度アップ",
+            "StartAllUp": "<:open:480373410048770078> スタートダッシュ",
+            "SubInk_Save": "<:sbsv:480365468423684106> インク効率アップ(サブ)",
+            "SuperJumpSign_Hide": "<:jump:480383328214843393> ステルスジャンプ",
+            "ThermalInk": "<:therm:480394726562988042> サーマルインク",
+            "Unknown": "<:mystery:457050117694816257> "
         },
         "__skill_explain": {
             "SE_Blank": "",
@@ -294,36 +344,36 @@
             "Umbrella_Wide_02": "キャンピングシェルターカーモ"
         },
         "sub": {
-            "Bomb_Curling": "<:curling:451732483688497152>カーリングボム",
-            "Bomb_Piyo": "<:fizzy:497394302595497984>タンサンボム",
-            "Bomb_Quick": "<:burst:451732329153691648>クイックボム",
-            "Bomb_Robo": "<:auto:451732432740286464>ロボットボム",
-            "Bomb_Splash": "<:splat:451732998589644800>スプラッシュボム",
-            "Bomb_Suction": "<:suction:451733156656316416>キューバンボム",
-            "Bomb_Tako": "<:torpedo:510207376985423882>トーピード",
-            "Flag": "<:beakon:451733111433068557>ジャンプビーコン",
-            "PointSensor": "<:pointsensor:451732891727036416>ポイントセンサー",
-            "PoisonFog": "<:mist:451733194149199873>ポイズンミスト",
-            "Shield": "<:wall:451732942847213568>スプラッシュシールド",
-            "Sprinkler": "<:sprinkler:451733051030896661>スプリンクラー",
-            "TimerTrap": "<:mine:451732593054973952>トラップ"
+            "Bomb_Curling": "<:curling:451732483688497152> カーリングボム",
+            "Bomb_Piyo": "<:fizzy:497394302595497984> タンサンボム",
+            "Bomb_Quick": "<:burst:451732329153691648> クイックボム",
+            "Bomb_Robo": "<:auto:451732432740286464> ロボットボム",
+            "Bomb_Splash": "<:splat:451732998589644800> スプラッシュボム",
+            "Bomb_Suction": "<:suction:451733156656316416> キューバンボム",
+            "Bomb_Tako": "<:torpedo:510207376985423882> トーピード",
+            "Flag": "<:beakon:451733111433068557> ジャンプビーコン",
+            "PointSensor": "<:pointsensor:451732891727036416> ポイントセンサー",
+            "PoisonFog": "<:mist:451733194149199873> ポイズンミスト",
+            "Shield": "<:wall:451732942847213568> スプラッシュシールド",
+            "Sprinkler": "<:sprinkler:451733051030896661> スプリンクラー",
+            "TimerTrap": "<:mine:451732593054973952> トラップ"
         },
         "special": {
-            "AquaBall": "<:baller:451733454154104842>イカスフィア",
-            "Jetpack": "<:inkjet:451733714712657921>ジェットパック",
-            "LauncherCurling": "<:curlinglauncher:451734750307287041>カーリングボムピッチャー",
-            "LauncherQuick": "<:burstlauncher:451735283529023490>クイックボムピッチャー",
-            "LauncherRobo": "<:autolauncher:451734905009995807>ロボボムピッチャー",
-            "LauncherSplash": "<:splatlauncher:451733512232632320>スプラッシュボムピッチャー",
-            "LauncherSuction": "<:suctionlauncher:451734826639425536>キューバンボムピッチャー",
-            "RainCloud": "<:storm:451734059991826452>アメフラシ",
-            "SuperArmor": "<:armour:451733645187743775>インクアーマー",
-            "SuperBall": "<:booyah:497394472146042881>ナイスダマ",
-            "SuperBubble": "<:bubble:451733595829174273>バブルランチャー",
-            "SuperLanding": "<:splashdown:451734463332876289>スーパーチャクチ",
-            "SuperMissile": "<:missiles:451734631775993876>マルチミサイル",
-            "SuperStamp": "<:stamp:509782668016091189>ウルトラハンコ",
-            "WaterCutter": "<:stingray:451734582258171904>ハイパープレッサー"
+            "AquaBall": "<:baller:451733454154104842> イカスフィア",
+            "Jetpack": "<:inkjet:451733714712657921> ジェットパック",
+            "LauncherCurling": "<:curlinglauncher:451734750307287041> カーリングボムピッチャー",
+            "LauncherQuick": "<:burstlauncher:451735283529023490> クイックボムピッチャー",
+            "LauncherRobo": "<:autolauncher:451734905009995807> ロボボムピッチャー",
+            "LauncherSplash": "<:splatlauncher:451733512232632320> スプラッシュボムピッチャー",
+            "LauncherSuction": "<:suctionlauncher:451734826639425536> キューバンボムピッチャー",
+            "RainCloud": "<:storm:451734059991826452> アメフラシ",
+            "SuperArmor": "<:armour:451733645187743775> インクアーマー",
+            "SuperBall": "<:booyah:497394472146042881> ナイスダマ",
+            "SuperBubble": "<:bubble:451733595829174273> バブルランチャー",
+            "SuperLanding": "<:splashdown:451734463332876289> スーパーチャクチ",
+            "SuperMissile": "<:missiles:451734631775993876> マルチミサイル",
+            "SuperStamp": "<:stamp:509782668016091189> ウルトラハンコ",
+            "WaterCutter": "<:stingray:451734582258171904> ハイパープレッサー"
         },
         "hat": {
             "Hed_ACC001": "カイザーカフ",
@@ -1000,17 +1050,41 @@
     "winfo": {
         "winfo": {
             "main": {
+                "name": "メイン武器2",
+                "desc": "スプラトゥーン２のメイン武器についての情報を取得、表示する",
                 "params": {
-                    "weapon": {}
+                    "weapon": {
+                        "name": "武器",
+                        "desc": "探す武器の名前"
+                    }
                 },
                 "embed": {
-                    "class": ""
+                    "title": "メイン武器の情報",
+                    "desc": "**{{weapon}}** についての情報",
+                    "class": "武器の分類:",
+                    "sub": "サブウェポン:",
+                    "special": "スペシャル:",
+                    "unlock_level": "アンロックに必要なレベル:",
+                    "price": "値段:",
+                    "special_cost": "スペシャルに必要なポイント:",
+                    "debut": "追加されたバージョン:",
+                    "power": "メイン性能強化の効果:",
+                    "footer": "{{user}} によってリクエストされました。| データと膨大な援助が Lean (https://leanny.github.io/)によって提供されました"
                 }
-            }
-        }
+            },
+            "name": "武器情報２",
+            "desc": "スプラトゥーン２の武器についての情報を表示"
+        },
+        "footer": "{{user}} によってリクエストされました。| データと膨大な援助が Lean (https://leanny.github.io/)によって提供されました"
     },
     "maps": {
-        "maps": {},
-        "ttn": {}
+        "maps": {
+            "name": "地図２",
+            "desc": "スプラトゥーン２の今のマップを取得、表示"
+        },
+        "ttn": {
+            "name": "ローテーション２",
+            "desc": "次のマップのローテーションまでの時間を取得、表示"
+        }
     }
 }

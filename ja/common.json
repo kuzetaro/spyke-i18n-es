@@ -1,5 +1,24 @@
 {
     "keyword": {
-        "class": {}
+        "map": "ステージ",
+        "mode": "ゲームモード",
+        "gear_type": "ギアタイプ",
+        "rarity": "希少度",
+        "brand": "ブランド",
+        "main_skill": "主要能力",
+        "random": "適当",
+        "class": {
+            "shooter": "シューター",
+            "blaster": "ブラスター",
+            "roller": "ローラー",
+            "charger": "チャージャー",
+            "slosher": "スロッシャー",
+            "dualies": "デュアル",
+            "brella": "傘"
+        }
+    },
+    "bool": {
+        "yes": "はい",
+        "no": "いいえ"
     }
 }
