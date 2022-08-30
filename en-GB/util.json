@@ -24,6 +24,7 @@
                 "desc": "The message to send"
             }
         },
-        "sent": "Your message has been sent!"
+        "sent": "Your message has been sent!",
+        "received": "You have been sent a message by the Spyke devs!\nTo reply, use `/devmail` again\n\n>>> {{msg}}"
     }
 }
