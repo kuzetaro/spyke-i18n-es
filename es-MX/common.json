@@ -1,0 +1,24 @@
+{
+    "keyword": {
+        "map": "Escenario",
+        "mode": "Modo",
+        "gear_type": "Tipo de Equipo",
+        "rarity": "Rareza",
+        "brand": "Marca",
+        "main_skill": "Habilidad Principal",
+        "random": "Random",
+        "class": {
+            "shooter": "Lanzatintas",
+            "blaster": "Lanzamotas",
+            "roller": "Rodillos",
+            "charger": "Cargatintas",
+            "slosher": "Derramatic",
+            "dualies": "Duales",
+            "brella": "Paratintas"
+        }
+    },
+    "bool": {
+        "yes": "Sí",
+        "no": "No"
+    }
+}
