@@ -1,0 +1,30 @@
+{
+    "ping": {
+        "name": "ping",
+        "desc": "¡Pong!",
+        "subs": {
+            "pong": {
+                "name": "pong",
+                "desc": "Juega ping pong",
+                "response": "¡Pong! 🏓"
+            },
+            "time": {
+                "name": "Tiempo",
+                "desc": "Mide la altencia del bot",
+                "response": "¡Pong! {{ping}}ms"
+            }
+        }
+    },
+    "devmail": {
+        "name": "devmail",
+        "desc": "Envía un mensaje a los desarrolladores de Spyke. Estas pueden opiniones o recomendaciones.",
+        "params": {
+            "message": {
+                "name": "mensaje",
+                "desc": "El mensaje a enviar"
+            }
+        },
+        "sent": "¡Tu mensaje ha sido enviado!",
+        "received": "¡Has recibido un mensaje de los desarrolladores de Spyke!\nPara responder, usa `/devmail` nuevamente\n\n>>> {{msg}}"
+    }
+}
