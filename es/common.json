@@ -8,12 +8,12 @@
         "main_skill": "Habilidad Principal",
         "random": "Random",
         "class": {
-            "shooter": "Lanzatintas",
+            "shooter": "Rociadores",
             "blaster": "Lanzamotas",
             "roller": "Rodillos",
             "charger": "Cargatintas",
             "slosher": "Derramatic",
-            "dualies": "Duales",
+            "dualies": "Armas duales",
             "brella": "Paratintas"
         }
     },

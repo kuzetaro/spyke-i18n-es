@@ -17,7 +17,7 @@
     },
     "devmail": {
         "name": "devmail",
-        "desc": "Envía un mensaje a los desarrolladores de Spyke. Estas pueden opiniones o recomendaciones.",
+        "desc": "Envía un mensaje a los desarrolladores de Spyke. Estas pueden ser opiniones o recomendaciones.",
         "params": {
             "message": {
                 "name": "mensaje",
