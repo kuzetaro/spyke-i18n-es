@@ -6,10 +6,9 @@
             "embed": {
                 "main": {
                     "title": "Private Battle Settings",
-                    "desc": "Here are your generated room settings"
-                },
-                "alpha": {
-                    "title": "Alpha Team"
+                    "desc": "Here are your generated room settings",
+                    "map": "Stage",
+                    "mode": "Game mode"
                 },
                 "team": {
                     "alpha": "Alpha Team",
