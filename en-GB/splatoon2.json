@@ -1074,9 +1074,9 @@
                 }
             },
             "name": "winfo2",
-            "desc": "Get information about a weapon in Splatoon 2"
-        },
-        "footer": "Requested by {{user}} | Data (and great amounts of help) provided by Lean (https://leanny.github.io/)"
+            "desc": "Get information about a weapon in Splatoon 2",
+            "404": "Sorry, but I couldn't find a weapon with the name **{{weapon}}**. Please try again."
+        }
     },
     "maps": {
         "maps": {
