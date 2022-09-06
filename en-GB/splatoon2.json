@@ -6,10 +6,9 @@
             "embed": {
                 "main": {
                     "title": "Private Battle Settings",
-                    "desc": "Here are your generated room settings"
-                },
-                "alpha": {
-                    "title": "Alpha Team"
+                    "desc": "Here are your generated room settings",
+                    "map": "Stage",
+                    "mode": "Game mode"
                 },
                 "team": {
                     "alpha": "Alpha Team",
@@ -1050,33 +1049,29 @@
     },
     "winfo": {
         "winfo": {
-            "main": {
-                "name": "main",
-                "desc": "Get information about a main weapon in Splatoon 2",
-                "params": {
-                    "weapon": {
-                        "name": "weapon",
-                        "desc": "The weapon to search for"
-                    }
-                },
-                "embed": {
-                    "title": "Main Weapon Information",
-                    "desc": "Information about **{{weapon}}**",
-                    "class": "Weapon Class:",
-                    "sub": "Sub Weapon:",
-                    "special": "Special Weapon:",
-                    "unlock_level": "Level required to unlock:",
-                    "price": "Price:",
-                    "special_cost": "Special Cost:",
-                    "debut": "Added in:",
-                    "power": "Effect of Main Power Up:",
-                    "footer": "Requested by {{user}} | Data (and great amounts of help) provided by Lean (https://leanny.github.io/)"
+            "params": {
+                "weapon": {
+                    "name": "weapon",
+                    "desc": "The weapon to search for"
                 }
             },
+            "embed": {
+                "title": "Main Weapon Information",
+                "desc": "Information about **{{weapon}}**",
+                "class": "Weapon Class:",
+                "sub": "Sub Weapon:",
+                "special": "Special Weapon:",
+                "unlock_level": "Level required to unlock:",
+                "price": "Price:",
+                "special_cost": "Special Cost:",
+                "debut": "Added in:",
+                "power": "Effect of Main Power Up:",
+                "footer": "Requested by {{user}} | Data (and great amounts of help) provided by Lean (https://leanny.github.io/)"
+            },
             "name": "winfo2",
-            "desc": "Get information about a weapon in Splatoon 2"
-        },
-        "footer": "Requested by {{user}} | Data (and great amounts of help) provided by Lean (https://leanny.github.io/)"
+            "desc": "Get information about a weapon in Splatoon 2",
+            "404": "Sorry, but I couldn't find a weapon with the name **{{weapon}}**. Please try again."
+        }
     },
     "maps": {
         "maps": {

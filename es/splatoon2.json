@@ -6,10 +6,9 @@
             "embed": {
                 "main": {
                     "title": "Configuraciones de la batalla privada",
-                    "desc": "Aquí están tus configuraciones generadas"
-                },
-                "alpha": {
-                    "title": "Equipo Alfa"
+                    "desc": "Aquí están tus configuraciones de sala generadas",
+                    "map": "Escenario",
+                    "mode": "Modo de juego"
                 },
                 "team": {
                     "alpha": "Equipo Alfa",
@@ -1050,33 +1049,29 @@
     },
     "winfo": {
         "winfo": {
-            "main": {
-                "name": "principal",
-                "desc": "Obtener información de un arma principal de Splatoon 2",
-                "params": {
-                    "weapon": {
-                        "name": "Arma",
-                        "desc": "El arma que buscas"
-                    }
-                },
-                "embed": {
-                    "title": "Información de arma principal",
-                    "desc": "Información de **{{weapon}}**",
-                    "class": "Clase:",
-                    "sub": "Secundaria:",
-                    "special": "Especial:",
-                    "unlock_level": "Nivel para desbloquear:",
-                    "price": "Precio:",
-                    "special_cost": "Costo de especial:",
-                    "debut": "Añadida en:",
-                    "power": "Efecto de mejora principal:",
-                    "footer": "Solicitado por {{user}} | Datos (Y mucha ayuda) provista por Lean (https://leanny.github.io/)"
+            "params": {
+                "weapon": {
+                    "name": "Arma",
+                    "desc": "El arma que buscas"
                 }
             },
+            "embed": {
+                "title": "Información de arma principal",
+                "desc": "Información de **{{weapon}}**",
+                "class": "Clase:",
+                "sub": "Secundaria:",
+                "special": "Especial:",
+                "unlock_level": "Nivel para desbloquear:",
+                "price": "Precio:",
+                "special_cost": "Costo de especial:",
+                "debut": "Añadida en:",
+                "power": "Efecto de mejora principal:",
+                "footer": "Solicitado por {{user}} | Datos (Y mucha ayuda) provista por Lean (https://leanny.github.io/)"
+            },
             "name": "armainfo2",
-            "desc": "Obten información de un arma en Splatoon 2"
-        },
-        "footer": "Solicitado por {{user}} | Datos (Y mucha ayuda) provista por Lean (https://leanny.github.io/)"
+            "desc": "Obten información de un arma en Splatoon 2",
+            "404": "Lo siento, no pude encontrar un arma con el nombre de **{{weapon}}**. Por favor vuelve a intentar."
+        }
     },
     "maps": {
         "maps": {
