@@ -6,10 +6,9 @@
             "embed": {
                 "main": {
                     "title": "プライベートバトル設定",
-                    "desc": "作成した部屋の設定です"
-                },
-                "alpha": {
-                    "title": "アルファチーム"
+                    "desc": "作成した部屋の設定です",
+                    "map": "ステージ",
+                    "mode": "ゲームモード"
                 },
                 "team": {
                     "alpha": "アルファチーム",
@@ -168,7 +167,8 @@
             "Unknown": "<:mystery:457050117694816257> "
         },
         "__skill_explain": {
-            "SE_Blank": "",
+            "__unused": "These strings are not currently used in Spyke",
+            "SE_Blank":"",
             "SE_BombDamage_Reduction": "メインウェポン以外の爆発で\n受けるダメージと、位置を発見\nしてくる攻撃の効果を軽減します。",
             "SE_BombDistance_Up": "サブウェポンの性能が\nアップします。",
             "SE_ComeBack": "プレイヤーがやられて復帰後、\nしばらくの間、一部の能力が\nかなりアップします。",
@@ -1049,33 +1049,29 @@
     },
     "winfo": {
         "winfo": {
-            "main": {
-                "name": "メイン武器2",
-                "desc": "スプラトゥーン２のメイン武器についての情報を取得、表示する",
-                "params": {
-                    "weapon": {
-                        "name": "武器",
-                        "desc": "探す武器の名前"
-                    }
-                },
-                "embed": {
-                    "title": "メイン武器の情報",
-                    "desc": "**{{weapon}}** についての情報",
-                    "class": "武器の分類:",
-                    "sub": "サブウェポン:",
-                    "special": "スペシャル:",
-                    "unlock_level": "アンロックに必要なレベル:",
-                    "price": "値段:",
-                    "special_cost": "スペシャルに必要なポイント:",
-                    "debut": "追加されたバージョン:",
-                    "power": "メイン性能強化の効果:",
-                    "footer": "{{user}} によってリクエストされました。| データと膨大な援助が Lean (https://leanny.github.io/)によって提供されました"
+            "params": {
+                "weapon": {
+                    "name": "武器",
+                    "desc": "探す武器の名前"
                 }
             },
+            "embed": {
+                "title": "メイン武器の情報",
+                "desc": "**{{weapon}}** についての情報",
+                "class": "武器の分類:",
+                "sub": "サブウェポン:",
+                "special": "スペシャル:",
+                "unlock_level": "アンロックに必要なレベル:",
+                "price": "値段:",
+                "special_cost": "スペシャルに必要なポイント:",
+                "debut": "追加されたバージョン:",
+                "power": "メイン性能強化の効果:",
+                "footer": "{{user}} によってリクエストされました。| データと膨大な援助が Lean (https://leanny.github.io/)によって提供されました"
+                },
             "name": "武器情報２",
-            "desc": "スプラトゥーン２の武器についての情報を表示"
-        },
-        "footer": "{{user}} によってリクエストされました。| データと膨大な援助が Lean (https://leanny.github.io/)によって提供されました"
+            "desc": "スプラトゥーン２の武器についての情報を表示",
+            "404": "**{{weapon}}** という武器は見つかりませんでした。もう一度試してください"
+        }
     },
     "maps": {
         "maps": {
